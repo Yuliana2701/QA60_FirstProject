@@ -1,5 +1,7 @@
 package com.ait.qa60;
 
+import com.ait.qa60.data.UserData;
+import com.ait.qa60.models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;

@@ -13,9 +13,6 @@ public class LoginTests extends com.ait.qa60.TestBase {
     public void loginPositiveTest() {
         app.getUser().login("yulia27@gmail.com", "Yuliana123!");
 
-
-        app.getUser().waitUntilVisible(By.xpath("//a[text()='Log out']"), 20);
-
         Assert.assertTrue(app.getUser().isLoggedIn(), "User should be logged in");
     }
 

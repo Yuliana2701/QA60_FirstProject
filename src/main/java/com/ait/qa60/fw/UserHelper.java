@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 
 public class UserHelper extends BaseHelper {
 
+
+
     public UserHelper(WebDriver driver) {
         super(driver);
     }
@@ -34,8 +36,14 @@ public class UserHelper extends BaseHelper {
         return isElementPresent(By.xpath("//a[text()='Log out']"));
     }
 
+    public void openHomePage() {
+        driver.get("https://demowebshop.tricentis.com/");
+        waitUntilVisible(By.xpath("//a[normalize-space()='Register']"), 10);
+    }
+
     public void openRegistrationForm() {
-        click(By.cssSelector("a[href='/register']"));
+        openHomePage();
+        click(By.xpath("//a[normalize-space()='Register']"));
     }
 
     public void fillRegistrationForm(User user) {
