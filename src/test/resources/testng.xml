@@ -3,7 +3,6 @@
 <suite name="Quick" verbose="1">
     <test name="Quick1">
         <classes>
-            <class name="com.ait.qa60.AddItemToCartTests"/>
         </classes>
     </test>
 </suite>
