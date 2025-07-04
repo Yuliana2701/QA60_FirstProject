@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.qa60.AddItemToCartTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-03T19:24:47" hostname="DESKTOP-ECF2EJG" time="71.744">
+  <properties/>
+  <testcase name="addSecondItemToCartTest" classname="com.ait.qa60.AddItemToCartTests" time="71.744"/>
+  <system-out><![CDATA[21:24:47.751 [Test worker] INFO  com.ait.qa60.TestBase -- Start testaddSecondItemToCartTest
+21:24:47.756 [Test worker] INFO  com.ait.qa60.utils.MyListener -- Before Find ElementsBy.xpath: //a[text()='Log out']
+21:24:47.757 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:57.816 [Test worker] INFO  com.ait.qa60.utils.MyListener -- List size is0
+21:24:57.822 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:57.827 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator will findBy.cssSelector: a[href='/login']
+21:24:57.827 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:57.858 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator isBy.cssSelector: a[href='/login']
+21:24:57.858 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:58.289 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator will findBy.id: Email
+21:24:58.290 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:58.315 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator isBy.id: Email
+21:24:58.315 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:58.449 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator will findBy.id: Password
+21:24:58.449 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:58.471 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator isBy.id: Password
+21:24:58.472 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:58.578 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator will findBy.xpath: //input[@value='Log in']
+21:24:58.578 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:58.595 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator isBy.xpath: //input[@value='Log in']
+21:24:58.596 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:59.156 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator will findBy.xpath: //a[text()='Log out']
+21:24:59.156 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:59.228 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator isBy.xpath: //a[text()='Log out']
+21:24:59.228 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:59.241 [Test worker] INFO  com.ait.qa60.utils.MyListener -- Before Find ElementsBy.cssSelector: .product-item
+21:24:59.242 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:24:59.293 [Test worker] INFO  com.ait.qa60.utils.MyListener -- List size is6
+21:24:59.293 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:25:59.500 [Test worker] INFO  com.ait.qa60.utils.MyListener -- Before Find ElementsBy.xpath: //a[text()='Log out']
+21:25:59.500 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:25:59.525 [Test worker] INFO  com.ait.qa60.utils.MyListener -- List size is1
+21:25:59.525 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:25:59.526 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator will findBy.cssSelector: a[href='/logout']
+21:25:59.526 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:25:59.551 [Test worker] INFO  com.ait.qa60.utils.MyListener -- The locator isBy.cssSelector: a[href='/logout']
+21:25:59.551 [Test worker] INFO  com.ait.qa60.utils.MyListener -- ***************************************************************
+21:26:00.149 [Test worker] INFO  com.ait.qa60.TestBase -- PASSED:addSecondItemToCartTest
+21:26:00.150 [Test worker] INFO  com.ait.qa60.TestBase -- Stop test
+21:26:00.150 [Test worker] INFO  com.ait.qa60.TestBase -- ======================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
