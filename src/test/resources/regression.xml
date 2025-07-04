@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite" verbose="1">
+    <test name="Regression">
+        <classes>
+            <class name="com.ait.qa60.AddItemToCartTests"/>
+            <class name="com.ait.qa60.LoginTests"/>
+            <class name="com.ait.qa60.CreateAccountTests"/>
+        </classes>
+    </test>
+</suite>
