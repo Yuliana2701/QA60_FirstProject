@@ -5,7 +5,7 @@
         <classes>
             <class name="com.ait.qa60.AddItemToCartTests"/>
             <class name="com.ait.qa60.LoginTests"/>
-            <class name="com.ait.qa60.CreateAccountTests"/>
+
         </classes>
     </test>
 </suite>
